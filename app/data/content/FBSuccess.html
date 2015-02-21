@@ -9,8 +9,8 @@
     <div id="fb-root"></div>
     <script src="//connect.facebook.net/en_US/all.js"></script>
     <script>
-        var accessToken;
-        var token;
+        var appAccessToken;
+        var userToken;
         var FB;
 
         FB.init({
@@ -23,13 +23,13 @@
         FB.login();
 
         FB.getLoginStatus(function(response) {
-            accessToken = response.authResponse.accessToken;
-            console.log("accessToken === " + accessToken);
+            appAccessToken = response.authResponse.accessToken;
+            console.log("appAccessToken === " + appAccessToken);
             console.log("response.status === " + response.status);
             urlChecker();
         });
 
-        token = document.URL;
+        userToken = document.URL;
 
 
 
@@ -38,30 +38,33 @@
 
         function urlChecker () {
 
-            token = token.toString();
-            //console.log("furst token " + token[1]);
-            token = token.split("=");
-            //console.log("sucond token " + token[1]);
-            token = token[1].split("&");
-            //parses facebook login response token and prints auth token
-            token = token[0];
-            //console.log("token === " + token);
+            userToken = userToken.toString();
+            //console.log("furst userToken " + userToken[1]);
+            userToken = userToken.split("=");
+            //console.log("sucond userToken " + userToken[1]);
+            userToken = userToken[1].split("&");
+            //parses facebook login response userToken and prints auth userToken
+            userToken = userToken[0];
+            //console.log("userToken === " + userToken);
+
+
+
 
 
             (function(theUrl,tok,end,access)
             {
                 var xmlHttp = null;
 
-                //console.log(theUrl+token+end+access);
+                //console.log(theUrl+userToken+end+access);
                 xmlHttp = new XMLHttpRequest();
                 xmlHttp.open( "GET", theUrl+tok+end+access, false );
                 xmlHttp.send( null );
                 return xmlHttp.responseText;
-            }("https://graph.facebook.com/debug_token?input_token=", token,"&access_token=",accessToken));
+            }("https://graph.facebook.com/debug_token?input_token=", userToken,"&access_token=",appAccessToken));
 
 
 
-            window.location.replace("localhost:63343/PostOP/app/data/content/FuckMiller.html")
+            window.location.replace("http://localhost:63343/PostOP/app/data/content/FuckMiller.html")
 
         }
 

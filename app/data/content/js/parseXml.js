@@ -13,7 +13,8 @@ $(document).ready(function () {
                 $(this).find("facebook").each(function(){
                     var username = $(this).find("username").text();
                     var password = $(this).find("password").text();
-                    console.log("Username: " + username + " | password: " + password);
+                    var fbToken = $(this).find("fbToken").text();
+                    console.log("Username: " + username + " | password: " + password + " | token: " + token);
 
                     $('#username').val(username);
                     $('#password').val(password);

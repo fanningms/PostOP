@@ -25,13 +25,16 @@
 </head>
 <body style="background: #3b5998">
 <script>
+    var token = document.URL;
+    var FB;
+    var accessToken;
+
     window.fbAsyncInit = function() {
         FB.init({
             appId      : '331246753731437',
             xfbml      : true,
             version    : 'v2.2'
         });
-        console.log("FB.init end");
     };
 
     (function(d, s, id){
@@ -45,12 +48,62 @@
 
     function FBLogin() {
         // redirects page to Facebook
-        // once login success sends back to facebookLogin.html with a token and time in seconds until token expires
+        // once login success sends back to facebookLogin.html with a token and time in seconds until token expires (5184000 seconds / 60 days)
         // we need to research and see if there is a way to
-        window.location.replace('https://www.facebook.com/dialog/oauth?client_id=331246753731437&response_type=token&redirect_uri=http://localhost:63343/PostOP/app/data/content/facebookLogin.html');
+        // Look into Login Review for facebook Permissions
+        window.location.href ='https://www.facebook.com/dialog/oauth?client_id=331246753731437&response_type=token&redirect_uri=http://localhost:63342/PostOP/app/data/content/facebookLogin.html';
+
+        console.log("bitch");
+
+
+//
+//        FB.getLoginStatus(function(response) {
+//            if (response.status === 'connected') {
+//                console.log(response.authResponse.accessToken);
+//            }
+//        });
+
     }
 
 
+    // runs on page ready
+    // after login to facebook, sets var token = auth token from facebook
+
+
+    // for some reason when the URL is directed back you have to use the FB.login(); to be able to use
+    // the facebook api. I have tried this on window.onload and document.ready, neither work because the
+    // api is loaded asynchronously. :( lets figure this out.
+    //
+    // if we do not use FB.login(), we need to find another way to obtain the access token because we will not
+    // be able to use FB.getAccessToken();
+
+
+    //document.ready(console.log(FB.login()));
+    window.onload(urlChecker());
+    function urlChecker () {
+        var accessToken = FB.getAccessToken();
+        token = token.toString();
+        //console.log("furst token " + token[1]);
+        token = token.split("=");
+        //console.log("sucond token " + token[1]);
+        token = token[1].split("&");
+        //parses facebook login response token and prints auth token
+        token = token[0];
+        console.log("token === " + token);
+
+
+        (function(theUrl, tok,end,access)
+        {
+            var xmlHttp = null;
+
+            console.log(theUrl+token+end+access);
+            xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", theUrl+tok+end, false );
+            xmlHttp.send( null );
+            return xmlHttp.responseText;
+        }("https://graph.facebook.com/debug_token?input_token=", token,"&access_token=",accessToken));
+
+    }
 
 </script>
 <div class="container">

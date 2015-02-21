@@ -14,10 +14,11 @@ $(document).ready(function () {
                     var username = $(this).find("username").text();
                     var password = $(this).find("password").text();
                     var fbToken = $(this).find("fbToken").text();
-                    console.log("Username: " + username + " | password: " + password + " | token: " + token);
+                    console.log("Username: " + username + " | password: " + password + " | token: " + fbToken);
 
                     $('#username').val(username);
                     $('#password').val(password);
+                    $('#token').val(fbToken);
                 });
             });
         }

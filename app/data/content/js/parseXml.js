@@ -24,3 +24,20 @@ $(document).ready(function () {
         }
     });
 });
+
+function saveFacebookToken(token){
+    $.ajax({
+        type: "GET",
+        url: "creds.xml",
+        cache: false,
+        dataType: "xml",
+        success: function(xml) {
+            $(xml).find('lkLogin').each(function(){
+                $(this).find("facebook").each(function(){
+                    console.log("Token in save: " + token);
+                    $(this).find("fbToken").attr('fbToken',token);
+                });
+            });
+        }
+    });
+}

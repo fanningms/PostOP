@@ -24,9 +24,11 @@ Miller Fanning
 Ryan Sprowles 
 
 ## Where to Find Us
-Issue Tacker: https://code.google.com/p/ladiesknight/
-Facebook:     https://www.facebook.com/LadiesKnightCofC?ref=aymt_homepage_panel
-Twitter:      @Ladies_Knight_
+Issue Tacker:https://code.google.com/p/ladiesknight/
+
+Facebook:https://www.facebook.com/LadiesKnightCofC?ref=aymt_homepage_panel
+
+Twitter:@Ladies_Knight_
 
 
 ## License

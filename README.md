@@ -9,12 +9,11 @@ This project was designed to save you, the user a bit of time. Instead of having
 ## Installation
 
 Download the application or clone into your desktop
-Run the command: _____
-
-## API Reference
+Run the command from the app directory: ./app.sh 
 
 ## Tests
-TBD
+
+Tests are currently in development
 
 ## Contributors
 
@@ -33,4 +32,4 @@ Twitter:@Ladies_Knight_
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+License used by App Js: Apache License

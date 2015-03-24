@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<!--All buttons that link to sign in for each social media site will go in this file-->
+<button onclick="FBLogin()">Sign Into Facebook</button>
+
+<script>
+    function FBLogin() {
+        window.location.href = 'https://www.facebook.com/dialog/oauth?client_id=334789983377114&response_type=token&redirect_uri=http://localhost:63342/PostOP2/Resources/fbSuccess.html';
+    }
+</script>
+</body>
+</html>

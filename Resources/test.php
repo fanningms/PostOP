@@ -5,23 +5,9 @@
  * Date: 3/23/15
  * Time: 3:59 PM
  */
-require_once("fb-api/src/facebook.php");
 
-$config = array(
-    'appId' => '328537774002335',
-    'secret' => '1832b606962c6d524b4be01a7e76ad7c',
-    'fileUpload' => false, // optional
-    'allowSignedRequest' => false, // optional, but should be set to false for non-canvas apps
-);
-
-$facebook = new Facebook($config);
-
-$params = array(
-    'scope' => 'read_stream, friends_likes',
-    'redirect_uri' => 'https://www.google.com'
-);
-
-$loginUrl = $facebook->getLoginUrl($params);
+$lastName = $_GET['first_name'];
+$firstName = $_GET['last_name'];
 
 ?>
 <!DOCTYPE html>

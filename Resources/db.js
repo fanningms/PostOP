@@ -11,6 +11,7 @@ function insert(firstname, lastname){
     var queryString = "INSERT INTO Users VALUES(2, firstname, lastname)";
     db.execute(queryString);
 
+    db.close();
 }
 
 
@@ -26,4 +27,3 @@ while (rows.isValidRow()) {
 
 //Release memory once you are done with the resultset and the database
 rows.close();
-db.close();

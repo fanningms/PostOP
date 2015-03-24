@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb19a2e-cf5b-4f9d-b985-f1c40e0dcb57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/css/bootstrap.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/data/content/css/bootstrap.min.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/Resources/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/Resources/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/Resources/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/css/bootstrap.css" afterPath="$PROJECT_DIR$/Resources/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/Resources/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/css/loginCSS.css" afterPath="$PROJECT_DIR$/Resources/css/loginCSS.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/css/socialMediaIconCSS.css" afterPath="$PROJECT_DIR$/Resources/css/socialMediaIconCSS.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/Resources/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/Resources/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/Resources/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/Resources/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/Resources/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/icons/128.png" afterPath="$PROJECT_DIR$/Resources/icons/128.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/icons/16.png" afterPath="$PROJECT_DIR$/Resources/icons/16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/icons/32.png" afterPath="$PROJECT_DIR$/Resources/icons/32.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/icons/64.png" afterPath="$PROJECT_DIR$/Resources/icons/64.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/Cover_photo.png" afterPath="$PROJECT_DIR$/Resources/images/Cover_photo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/LKshield.png" afterPath="$PROJECT_DIR$/Resources/images/LKshield.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/PostOPicon.png" afterPath="$PROJECT_DIR$/Resources/images/PostOPicon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/PostOPlogos.png" afterPath="$PROJECT_DIR$/Resources/images/PostOPlogos.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/lkfacebookcover.png" afterPath="$PROJECT_DIR$/Resources/images/lkfacebookcover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/lkfbpicture.png" afterPath="$PROJECT_DIR$/Resources/images/lkfbpicture.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/lktext.png" afterPath="$PROJECT_DIR$/Resources/images/lktext.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/opfb.png" afterPath="$PROJECT_DIR$/Resources/images/opfb.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/images/postopfbc.png" afterPath="$PROJECT_DIR$/Resources/images/postopfbc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/js/bootstrap.js" afterPath="$PROJECT_DIR$/Resources/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/Resources/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/js/npm.js" afterPath="$PROJECT_DIR$/Resources/js/npm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/content/js/parseXml.js" afterPath="$PROJECT_DIR$/Resources/js/parseXml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/.name" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/content/FBSuccess.html" afterPath="$PROJECT_DIR$/app/data/content/FBSuccess.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/db.js" afterPath="$PROJECT_DIR$/Resources/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/Resources/db.js" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/Resources/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/content/facebookLogin.html" afterPath="$PROJECT_DIR$/app/data/content/facebookLogin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/saveData.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/index.html" afterPath="$PROJECT_DIR$/Resources/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/content/index.html" afterPath="$PROJECT_DIR$/app/data/content/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/Resources/index.html" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/Resources/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest" afterPath="$PROJECT_DIR$/manifest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/manifest" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/manifest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/modules.xml" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/content/views/new_user.html" afterPath="$PROJECT_DIR$/app/data/content/views/new_user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/test.php" afterPath="$PROJECT_DIR$/Resources/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tiapp.xml" afterPath="$PROJECT_DIR$/tiapp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/tiapp.xml" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/tiapp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/vcs.xml" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/workspace.xml" afterPath="$PROJECT_DIR$/dist/osx/HelloWorld.app/Contents/.idea/workspace.xml" />
     </list>
     <ignored path="PostOP2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,16 +31,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4361702" vertical-offset="0" max-vertical-offset="1125">
-              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.3617021" vertical-offset="366" max-vertical-offset="1050">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saveData.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/saveData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="255">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,6 +99,7 @@
       <list>
         <option value="$PROJECT_DIR$/Resources/db.js" />
         <option value="$PROJECT_DIR$/Resources/test.php" />
+        <option value="$PROJECT_DIR$/Resources/saveData.php" />
         <option value="$PROJECT_DIR$/Resources/index.html" />
       </list>
     </option>
@@ -192,78 +168,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PostOP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PostOP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PostOP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PostOP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PostOP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PostOP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PostOP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PostOP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -313,12 +217,20 @@
       <option name="number" value="Default" />
       <updated>1427212746263</updated>
     </task>
+    <task id="LOCAL-00001" summary="All styles reverted to old look">
+      <created>1427213808887</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1427213808887</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="708" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -355,6 +267,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="All styles reverted to old look" />
+    <option name="LAST_COMMIT_MESSAGE" value="All styles reverted to old look" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -369,14 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/content/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495">
@@ -387,17 +293,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manifest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/saveData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="255">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4361702" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.3617021" vertical-offset="366" max-vertical-offset="1050">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

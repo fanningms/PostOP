@@ -6,6 +6,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
       <script src="js/parseXml.js"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      <script>
+          var socket = io(); // your initialization code here.
+      </script>
 
     <title>PostOP</title>
 
@@ -54,6 +58,11 @@
       </div>
           <div class="form-group col-xs-12" style="padding-top: 3%">
               <button id = "test" class="btn btn-lg center-block" style="background: black; color: #ffffff;">Register</button>
+          </div>
+          <div class="form-group col-xs-12" style="padding-top: 3%">
+              <form method="post" action="test.php">
+                  <button id = "php-test" class="btn btn-lg center-block" style="background: black; color: #ffffff;" type="submit">Test</button>
+              </form>
           </div>
           <script type="text/javascript">
               document.getElementById("test").onclick = function () {

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <ti:app xmlns:ti='http://ti.appcelerator.org'>
-<id>com.tidesdk.helloworld</id>
-<name>HelloWorld</name>
+<id>com.ladiesknight.postop</id>
+<name>PostOP</name>
 <version>0.2.0</version>
 <publisher>Ladies Knight</publisher>
 <url>http//tidesdk.org</url>
-<icon>default_app_logo.png</icon>
+<icon>PostOPicon.png</icon>
 <copyright>2012 by David Pratt</copyright>
 <!-- Window Definition - these values can be edited -->
 <window>
